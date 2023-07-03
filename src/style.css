@@ -71,6 +71,6 @@ li {
     position: relative;
     top: -28px;
 }
-#description{
+.description{
     text-transform: capitalize;
 }
