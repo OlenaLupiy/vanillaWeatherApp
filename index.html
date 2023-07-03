@@ -25,13 +25,15 @@
           >
             <img src="src/logo.png" class="logo" alt="SheCodes Logo" />
           </a>
-          <form>
+          <form id="form">
             <div class="row">
               <div class="col-9">
                 <input
                   type="search"
                   placeholder="Enter a city..."
                   class="search_input form-control"
+                  autocomplete="off"
+                  id="city_search"
                 />
               </div>
               <div class="col-3 p-0">
@@ -66,7 +68,7 @@
                     <span class="temperature"
                       ><strong id="temperature"></strong
                     ></span>
-                    <span class="unit">°C | °F</span>
+                    <span class="unit"><a href="#" id="celsius_link" class="active">°C </a> |<a href="#" id="fahrenheit_link" >°F</a> </span>
                   </div>
                 </div>
               </div>
