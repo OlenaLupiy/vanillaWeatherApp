@@ -46,12 +46,14 @@
           <div class="weather_info">
             <div class="row">
               <div class="col-6">
-                <h1>Glasgow</h1>
+                <h1 id="city"></h1>
                 <ul>
-                  <li><span> Sunday 19:43 </span>, scattered clouds</li>
                   <li>
-                    "Humidity: <strong>64% </strong>, Wind:
-                    <strong>4.92 km/h</strong>
+                    <span> Sunday 19:43</span>, <span id="description"></span>
+                  </li>
+                  <li>
+                    <span>Humidity: <strong id="humidity"></strong> %</span
+                    >,<span> Wind: <strong id="wind">4.92</strong> km/h</span>
                   </li>
                 </ul>
               </div>
@@ -61,7 +63,9 @@
                     <img src="src/cloud.png" alt="cloud" />
                   </div>
                   <div>
-                    <span class="temperature"><strong>23</strong></span>
+                    <span class="temperature"
+                      ><strong id="temperature"></strong
+                    ></span>
                     <span class="unit">°C | °F</span>
                   </div>
                 </div>
