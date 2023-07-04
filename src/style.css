@@ -82,3 +82,19 @@ li {
 .active:hover{
 text-decoration: none;
 }
+.forecast_weather{
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+}
+.forecast_weather_date{
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.forecat_temp_min{
+    opacity: 0.5;
+}
+.forecar_weather_temperature{
+    font-size: 13px;
+}
